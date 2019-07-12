@@ -1,0 +1,14 @@
+{
+  "_type_" : "etl.Transformation",
+  "name" : "bp_xls_write",
+  "fragment" : "",
+  "crossReferences" : [ {
+    "refObject" : {
+      "_type_" : "etl.Project",
+      "name" : "blueprint_git",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "project"
+  } ]
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:UserDefinedFunction xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:etl="http://www.neoflex.ru/meta/etl" name="LONG2BINARY" code="class Long2BinaryUdfClass extends scala.Function1[Long, Array[Byte]] with Serializable {&#xA;  def apply(value: Long): Array[Byte] = {&#xA;    import org.apache.hadoop.hbase.util.Bytes&#xA;    Bytes.toBytes(value)&#xA;  }&#xA;}&#xA;" className="Long2BinaryUdfClass"/>

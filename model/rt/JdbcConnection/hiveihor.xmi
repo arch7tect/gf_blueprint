@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rt:JdbcConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rt="http://www.neoflex.ru/meta/rt" name="hiveihor" url="jdbc:hive2://ih921081.vds.myihor.ru:10000" schema="default" catalog="" user="mserver" password="mserver" driver="org.apache.hive.jdbc.HiveDriver"/>

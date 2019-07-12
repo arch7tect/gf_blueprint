@@ -1,0 +1,46 @@
+{
+  "_type_" : "etl.Transformation",
+  "name" : "bp_hbase_lookup",
+  "fragment" : "",
+  "crossReferences" : [ {
+    "refObject" : {
+      "_type_" : "etl.Project",
+      "name" : "blueprint_git",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "project"
+  }, {
+    "refObject" : {
+      "_type_" : "etl.UserDefinedFunction",
+      "name" : "BINARY2BOOLEAN",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "userDefinedFunctions"
+  }, {
+    "refObject" : {
+      "_type_" : "etl.UserDefinedFunction",
+      "name" : "BINARY2STRING",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "userDefinedFunctions"
+  }, {
+    "refObject" : {
+      "_type_" : "etl.UserDefinedFunction",
+      "name" : "HBASE_LOOKUP",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "userDefinedFunctions"
+  }, {
+    "refObject" : {
+      "_type_" : "etl.UserDefinedFunction",
+      "name" : "LONG2BINARY",
+      "fragment" : ""
+    },
+    "fragment" : "",
+    "feature" : "userDefinedFunctions"
+  } ]
+}

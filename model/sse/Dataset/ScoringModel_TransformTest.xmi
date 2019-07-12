@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:Dataset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ScoringModel_TransformTest" shortName="TransformTest" description="Test Data transformend with Data Transformation Model">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:13.855+0300" createUser="psimanihin" createDateTime="2019-06-17T16:58:31.411+0300"/>
+</sse:Dataset>

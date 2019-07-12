@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rt:JdbcConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rt="http://www.neoflex.ru/meta/rt" name="default_jdbc" url="jdbc:postgresql://localhost:5432/teneo" schema="public" catalog="teneo" user="teneo" password="teneo" driver="org.postgresql.Driver"/>

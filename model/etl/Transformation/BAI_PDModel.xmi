@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="BAI_PDModel" label="BAI_PDModel" jsonView="{&quot;cells&quot;:[{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:30},&quot;angle&quot;:0,&quot;id&quot;:&quot;5f291c3a-fbfe-4dcd-8795-39df06a37f46&quot;,&quot;name&quot;:&quot;DictPortfolio&quot;,&quot;z&quot;:1,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DictPortfolio&quot;}}},{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:180},&quot;angle&quot;:0,&quot;id&quot;:&quot;8ed5d3d7-c147-4086-9775-c4b2f0b952d3&quot;,&quot;name&quot;:&quot;GE_EconomicActivityMissing&quot;,&quot;z&quot;:2,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;GE_EconomicActivityMissing&quot;}}},{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;9520a803-a6d7-43d3-ac79-294865b2977d&quot;,&quot;name&quot;:&quot;rcdataAccounts&quot;,&quot;z&quot;:3,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;rcdataAccounts&quot;}}},{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:480},&quot;angle&quot;:0,&quot;id&quot;:&quot;5f7b7e33-dcd1-4562-914c-9b537983ca00&quot;,&quot;name&quot;:&quot;rcdataForbearance&quot;,&quot;z&quot;:4,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;rcdataForbearance&quot;}}},{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:630},&quot;angle&quot;:0,&quot;id&quot;:&quot;5786cf41-d53b-4011-a5e3-7df9a1a78523&quot;,&quot;name&quot;:&quot;Sectores_de_Economia&quot;,&quot;z&quot;:5,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Sectores_de_Economia&quot;}}},{&quot;type&quot;:&quot;devs.transformation.CSVSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:30,&quot;y&quot;:780},&quot;angle&quot;:0,&quot;id&quot;:&quot;a086880b-aa74-4f0e-a87d-368053c0e9b5&quot;,&quot;name&quot;:&quot;WriteOff&quot;,&quot;z&quot;:6,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;WriteOff&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Sort&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:180,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;f20eaf18-e403-42cb-b50c-ab81ebd3b08f&quot;,&quot;name&quot;:&quot;Sort_17&quot;,&quot;z&quot;:7,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Sort_17&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:360,&quot;y&quot;:30},&quot;angle&quot;:0,&quot;id&quot;:&quot;ee0804d7-5cdf-46a0-b673-d57facfb186e&quot;,&quot;name&quot;:&quot;Local_1&quot;,&quot;z&quot;:8,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_1&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:300,&quot;y&quot;:180},&quot;angle&quot;:0,&quot;id&quot;:&quot;bbf52697-5024-4156-89d2-6a8860e71d67&quot;,&quot;name&quot;:&quot;Local_4&quot;,&quot;z&quot;:9,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_4&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:330,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;1d333610-caad-487a-b2cc-4868b16f8130&quot;,&quot;name&quot;:&quot;Local_7&quot;,&quot;z&quot;:10,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_7&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:300,&quot;y&quot;:480},&quot;angle&quot;:0,&quot;id&quot;:&quot;d58452a5-5519-421d-9e63-609a1152d5bb&quot;,&quot;name&quot;:&quot;Local_10&quot;,&quot;z&quot;:11,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_10&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:300,&quot;y&quot;:630},&quot;angle&quot;:0,&quot;id&quot;:&quot;f08d1ac0-baca-4350-b250-41db94b84cff&quot;,&quot;name&quot;:&quot;Local_13&quot;,&quot;z&quot;:12,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_13&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:300,&quot;y&quot;:780},&quot;angle&quot;:0,&quot;id&quot;:&quot;c59d9226-b931-4964-a84c-52ccf466693a&quot;,&quot;name&quot;:&quot;Local_16&quot;,&quot;z&quot;:13,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Local_16&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;8ed5d3d7-c147-4086-9775-c4b2f0b952d3&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;bbf52697-5024-4156-89d2-6a8860e71d67&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;a339d04a-85bc-4f55-8adf-5ef2956d96ff&quot;,&quot;z&quot;:14,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;5f7b7e33-dcd1-4562-914c-9b537983ca00&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;d58452a5-5519-421d-9e63-609a1152d5bb&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;eacb5aff-bb5e-42b8-a57d-edc1d70d4176&quot;,&quot;z&quot;:15,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;5786cf41-d53b-4011-a5e3-7df9a1a78523&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;f08d1ac0-baca-4350-b250-41db94b84cff&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;a2ec33ef-ee33-4e1e-b8d7-a7ebcd88ef6d&quot;,&quot;z&quot;:16,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;a086880b-aa74-4f0e-a87d-368053c0e9b5&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;c59d9226-b931-4964-a84c-52ccf466693a&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;29d80a1b-0050-473c-8184-7da682f025c1&quot;,&quot;z&quot;:17,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;5f291c3a-fbfe-4dcd-8795-39df06a37f46&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;ee0804d7-5cdf-46a0-b673-d57facfb186e&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;f44e6454-f8f9-46d4-8c05-fc628b637eaa&quot;,&quot;z&quot;:18,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;9520a803-a6d7-43d3-ac79-294865b2977d&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;f20eaf18-e403-42cb-b50c-ab81ebd3b08f&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;acbe3abb-a833-485a-b36d-b32b7fd90461&quot;,&quot;z&quot;:19,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;f20eaf18-e403-42cb-b50c-ab81ebd3b08f&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;1d333610-caad-487a-b2cc-4868b16f8130&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;03d8dadc-8131-45cc-83d8-d4556c1f6ccf&quot;,&quot;z&quot;:20,&quot;attrs&quot;:{}}]}">
+  <targets xsi:type="etl:LocalTarget" name="Local_1" label="Local_1" localFileName="/tmp/ModelingPD_BAI_rawdata/DictPortfolio.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="DictPortfolio">
+    <inputPort name="Local_1in">
+      <fields name="Code" dataTypeDomain="STRING"/>
+      <fields name="Name" dataTypeDomain="STRING"/>
+      <fields name="Name_Eng" dataTypeDomain="STRING"/>
+      <fields name="_c3" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Code" targetColumnName="code"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Name" targetColumnName="name"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Name_Eng" targetColumnName="name_eng"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="_c3" targetColumnName="_c3"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="Local_4" label="Local_4" localFileName="/tmp/ModelingPD_BAI_rawdata/GE_EconomicActivityMissing.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="GE_EconomicActivityMissing">
+    <inputPort name="Local_1in">
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="EconomicActivity" dataTypeDomain="STRING"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="Nperiods" dataTypeDomain="INTEGER"/>
+      <fields name="minStartDate" dataTypeDomain="STRING"/>
+      <fields name="minStartDate_Year" dataTypeDomain="INTEGER"/>
+      <fields name="CAE" dataTypeDomain="INTEGER"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Account" targetColumnName="id_account"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EconomicActivity" targetColumnName="economicactivity"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Customer" targetColumnName="id_customer"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Nperiods" targetColumnName="nperiods"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="minStartDate" targetColumnName="minstartdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="minStartDate_Year" targetColumnName="minstartdate_year"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CAE" targetColumnName="cae"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="Local_7" label="Local_7" localFileName="/tmp/ModelingPD_BAI_rawdata/rcdataAccounts.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="rcdataAccounts">
+    <inputPort name="Local_1in">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="STRING"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="C_Rating" dataTypeDomain="STRING"/>
+      <fields name="C_OriginationScoring" dataTypeDomain="STRING"/>
+      <fields name="C_BehaviourScoring" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_CreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_UsedCreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_CreditLineType" dataTypeDomain="STRING"/>
+      <fields name="F_CreditLineConditionality" dataTypeDomain="INTEGER"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="N_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_ContractualInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="C_InterestBasis" dataTypeDomain="INTEGER"/>
+      <fields name="C_InterestRateType" dataTypeDomain="INTEGER"/>
+      <fields name="C_IndexRate" dataTypeDomain="STRING"/>
+      <fields name="N_PenaltyInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="F_InterestSuspended" dataTypeDomain="INTEGER"/>
+      <fields name="C_AmortizationType" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayPrincipal" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayInterest" dataTypeDomain="INTEGER"/>
+      <fields name="D_FirstPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_FirstInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="N_PrincipalAmortizationRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PrincipalAmortizationAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_LastPrincipalPayAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateLegalClaimValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_RealEstateCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_FinancialCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_FinancialCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_ThirdPartyGuaranteesValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_ThirdPartyGuaranteesType" dataTypeDomain="STRING"/>
+      <fields name="N_OtherTangibleAssetsValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_OtherTangibleAssetsType" dataTypeDomain="STRING"/>
+      <fields name="F_Forbearance" dataTypeDomain="INTEGER"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="INTEGER"/>
+      <fields name="D_WriteOffDate" dataTypeDomain="STRING"/>
+      <fields name="N_RemissionPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RemissionInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="D_RemissionDate" dataTypeDomain="STRING"/>
+      <fields name="F_LoanSales" dataTypeDomain="INTEGER"/>
+      <fields name="D_LoanSalesDate" dataTypeDomain="STRING"/>
+      <fields name="N_LoanSalesPrice" dataTypeDomain="DOUBLE"/>
+      <fields name="F_Repossession" dataTypeDomain="INTEGER"/>
+      <fields name="F_RecoveryProcess" dataTypeDomain="INTEGER"/>
+      <fields name="C_RecoveryPhase" dataTypeDomain="INTEGER"/>
+      <fields name="F_Default" dataTypeDomain="INTEGER"/>
+      <fields name="C_DefaultCriteria" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField1" dataTypeDomain="STRING"/>
+      <fields name="AuxField2" dataTypeDomain="STRING"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField5" dataTypeDomain="STRING"/>
+      <fields name="AuxField6" dataTypeDomain="STRING"/>
+      <fields name="AuxField7" dataTypeDomain="STRING"/>
+      <fields name="AuxField8" dataTypeDomain="STRING"/>
+      <fields name="AuxField9" dataTypeDomain="STRING"/>
+      <fields name="AuxField10" dataTypeDomain="STRING"/>
+      <fields name="AuxField11" dataTypeDomain="STRING"/>
+      <fields name="AuxField12" dataTypeDomain="STRING"/>
+      <fields name="AuxField13" dataTypeDomain="STRING"/>
+      <fields name="AuxField14" dataTypeDomain="STRING"/>
+      <fields name="AuxField15" dataTypeDomain="STRING"/>
+      <fields name="AuxField16" dataTypeDomain="STRING"/>
+      <fields name="AuxField17" dataTypeDomain="STRING"/>
+      <fields name="AuxField18" dataTypeDomain="STRING"/>
+      <fields name="AuxField19" dataTypeDomain="STRING"/>
+      <fields name="AuxField20" dataTypeDomain="STRING"/>
+      <fields name="AuxField21" dataTypeDomain="STRING"/>
+      <fields name="AuxField22" dataTypeDomain="STRING"/>
+      <fields name="AuxField23" dataTypeDomain="STRING"/>
+      <fields name="AuxField24" dataTypeDomain="STRING"/>
+      <fields name="AuxField25" dataTypeDomain="STRING"/>
+      <fields name="AuxField26" dataTypeDomain="STRING"/>
+      <fields name="AuxField27" dataTypeDomain="STRING"/>
+      <fields name="AuxField28" dataTypeDomain="STRING"/>
+      <fields name="AuxField29" dataTypeDomain="STRING"/>
+      <fields name="AuxField30" dataTypeDomain="STRING"/>
+      <fields name="AuxField31" dataTypeDomain="STRING"/>
+      <fields name="AuxField32" dataTypeDomain="STRING"/>
+      <fields name="AuxField33" dataTypeDomain="STRING"/>
+      <fields name="AuxField34" dataTypeDomain="STRING"/>
+      <fields name="AuxField35" dataTypeDomain="STRING"/>
+      <fields name="AuxField36" dataTypeDomain="STRING"/>
+      <fields name="AuxField37" dataTypeDomain="STRING"/>
+      <fields name="AuxField38" dataTypeDomain="STRING"/>
+      <fields name="AuxField39" dataTypeDomain="STRING"/>
+      <fields name="AuxField40" dataTypeDomain="STRING"/>
+      <fields name="AuxField41" dataTypeDomain="STRING"/>
+      <fields name="AuxField42" dataTypeDomain="STRING"/>
+      <fields name="AuxField43" dataTypeDomain="STRING"/>
+      <fields name="AuxField44" dataTypeDomain="STRING"/>
+      <fields name="AuxField45" dataTypeDomain="STRING"/>
+      <fields name="AuxField46" dataTypeDomain="STRING"/>
+      <fields name="AuxField47" dataTypeDomain="STRING"/>
+      <fields name="AuxField48" dataTypeDomain="STRING"/>
+      <fields name="AuxField49" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField51" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField53" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField54" dataTypeDomain="STRING"/>
+      <fields name="AuxField55" dataTypeDomain="STRING"/>
+      <fields name="AuxField56" dataTypeDomain="STRING"/>
+      <fields name="AuxField57" dataTypeDomain="STRING"/>
+      <fields name="AuxField58" dataTypeDomain="STRING"/>
+      <fields name="AuxField59" dataTypeDomain="STRING"/>
+      <fields name="AuxField60" dataTypeDomain="STRING"/>
+      <fields name="AuxField61" dataTypeDomain="STRING"/>
+      <fields name="AuxField62" dataTypeDomain="STRING"/>
+      <fields name="AuxField63" dataTypeDomain="STRING"/>
+      <fields name="AuxField64" dataTypeDomain="STRING"/>
+      <fields name="AuxField65" dataTypeDomain="STRING"/>
+      <fields name="AuxField66" dataTypeDomain="STRING"/>
+      <fields name="AuxField67" dataTypeDomain="STRING"/>
+      <fields name="AuxField68" dataTypeDomain="STRING"/>
+      <fields name="AuxField69" dataTypeDomain="STRING"/>
+      <fields name="AuxField70" dataTypeDomain="STRING"/>
+      <fields name="AuxField71" dataTypeDomain="STRING"/>
+      <fields name="AuxField72" dataTypeDomain="STRING"/>
+      <fields name="AuxField73" dataTypeDomain="STRING"/>
+      <fields name="AuxField74" dataTypeDomain="STRING"/>
+      <fields name="AuxField75" dataTypeDomain="STRING"/>
+      <fields name="AuxField76" dataTypeDomain="STRING"/>
+      <fields name="AuxField77" dataTypeDomain="STRING"/>
+      <fields name="AuxField78" dataTypeDomain="STRING"/>
+      <fields name="AuxField79" dataTypeDomain="STRING"/>
+      <fields name="AuxField80" dataTypeDomain="STRING"/>
+      <fields name="AuxField81" dataTypeDomain="STRING"/>
+      <fields name="AuxField82" dataTypeDomain="STRING"/>
+      <fields name="AuxField83" dataTypeDomain="STRING"/>
+      <fields name="AuxField84" dataTypeDomain="STRING"/>
+      <fields name="AuxField85" dataTypeDomain="STRING"/>
+      <fields name="AuxField86" dataTypeDomain="STRING"/>
+      <fields name="AuxField87" dataTypeDomain="STRING"/>
+      <fields name="AuxField88" dataTypeDomain="STRING"/>
+      <fields name="AuxField89" dataTypeDomain="STRING"/>
+      <fields name="AuxField90" dataTypeDomain="STRING"/>
+      <fields name="AuxField91" dataTypeDomain="STRING"/>
+      <fields name="AuxField92" dataTypeDomain="STRING"/>
+      <fields name="AuxField93" dataTypeDomain="STRING"/>
+      <fields name="AuxField94" dataTypeDomain="STRING"/>
+      <fields name="AuxField95" dataTypeDomain="STRING"/>
+      <fields name="AuxField96" dataTypeDomain="STRING"/>
+      <fields name="AuxField97" dataTypeDomain="STRING"/>
+      <fields name="AuxField98" dataTypeDomain="STRING"/>
+      <fields name="AuxField99" dataTypeDomain="STRING"/>
+      <fields name="AuxField100" dataTypeDomain="STRING"/>
+      <fields name="AuxField101" dataTypeDomain="STRING"/>
+      <fields name="AuxField102" dataTypeDomain="STRING"/>
+      <fields name="AuxField103" dataTypeDomain="STRING"/>
+      <fields name="AuxField104" dataTypeDomain="STRING"/>
+      <fields name="AuxField105" dataTypeDomain="STRING"/>
+      <fields name="AuxField106" dataTypeDomain="STRING"/>
+      <fields name="AuxField107" dataTypeDomain="STRING"/>
+      <fields name="AuxField108" dataTypeDomain="STRING"/>
+      <fields name="AuxField109" dataTypeDomain="STRING"/>
+      <fields name="AuxField110" dataTypeDomain="STRING"/>
+      <fields name="AuxField111" dataTypeDomain="STRING"/>
+      <fields name="AuxField112" dataTypeDomain="STRING"/>
+      <fields name="AuxField113" dataTypeDomain="STRING"/>
+      <fields name="AuxField114" dataTypeDomain="STRING"/>
+      <fields name="AuxField115" dataTypeDomain="STRING"/>
+      <fields name="AuxField116" dataTypeDomain="STRING"/>
+      <fields name="AuxField117" dataTypeDomain="STRING"/>
+      <fields name="AuxField118" dataTypeDomain="STRING"/>
+      <fields name="AuxField119" dataTypeDomain="STRING"/>
+      <fields name="AuxField120" dataTypeDomain="STRING"/>
+      <fields name="AuxField121" dataTypeDomain="STRING"/>
+      <fields name="AuxField122" dataTypeDomain="STRING"/>
+      <fields name="AuxField123" dataTypeDomain="STRING"/>
+      <fields name="AuxField124" dataTypeDomain="STRING"/>
+      <fields name="AuxField125" dataTypeDomain="STRING"/>
+      <fields name="AuxField126" dataTypeDomain="STRING"/>
+      <fields name="AuxField127" dataTypeDomain="STRING"/>
+      <fields name="AuxField128" dataTypeDomain="STRING"/>
+      <fields name="AuxField129" dataTypeDomain="STRING"/>
+      <fields name="AuxField130" dataTypeDomain="STRING"/>
+      <fields name="AuxField131" dataTypeDomain="STRING"/>
+      <fields name="AuxField132" dataTypeDomain="STRING"/>
+      <fields name="AuxField133" dataTypeDomain="STRING"/>
+      <fields name="AuxField134" dataTypeDomain="STRING"/>
+      <fields name="AuxField135" dataTypeDomain="STRING"/>
+      <fields name="AuxField136" dataTypeDomain="STRING"/>
+      <fields name="AuxField137" dataTypeDomain="STRING"/>
+      <fields name="AuxField138" dataTypeDomain="STRING"/>
+      <fields name="AuxField139" dataTypeDomain="STRING"/>
+      <fields name="AuxField140" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Entity" targetColumnName="id_entity"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Account" targetColumnName="id_account"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_AccountMask" targetColumnName="id_accountmask"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_ReferenceDate" targetColumnName="d_referencedate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Customer" targetColumnName="id_customer"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_Portfolio" targetColumnName="c_portfolio"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ProductType" targetColumnName="c_producttype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ProductSubType" targetColumnName="c_productsubtype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_Rating" targetColumnName="c_rating"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_OriginationScoring" targetColumnName="c_originationscoring"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_BehaviourScoring" targetColumnName="c_behaviourscoring"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_OutstandingPrincipalAmount" targetColumnName="n_outstandingprincipalamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_AccruedInterestAmount" targetColumnName="n_accruedinterestamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_PastDueAmount" targetColumnName="n_pastdueamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_WriteOffAmount" targetColumnName="n_writeoffamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_CreditLineAmount" targetColumnName="n_creditlineamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_UsedCreditLineAmount" targetColumnName="n_usedcreditlineamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_CreditLineType" targetColumnName="c_creditlinetype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_CreditLineConditionality" targetColumnName="f_creditlineconditionality"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_Currency" targetColumnName="c_currency"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_StartDate" targetColumnName="d_startdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_MaturityDate" targetColumnName="d_maturitydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_DaysInArrears" targetColumnName="n_daysinarrears"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_InterestRate" targetColumnName="n_interestrate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_ContractualInterestSpread" targetColumnName="n_contractualinterestspread"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_InterestBasis" targetColumnName="c_interestbasis"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_InterestRateType" targetColumnName="c_interestratetype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_IndexRate" targetColumnName="c_indexrate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_PenaltyInterestSpread" targetColumnName="n_penaltyinterestspread"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_EffectiveInterestRate" targetColumnName="n_effectiveinterestrate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_EffectiveInterestSpread" targetColumnName="n_effectiveinterestspread"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_InterestSuspended" targetColumnName="f_interestsuspended"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_AmortizationType" targetColumnName="c_amortizationtype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_FreqPayPrincipal" targetColumnName="c_freqpayprincipal"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_FreqPayInterest" targetColumnName="c_freqpayinterest"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_FirstPrincipalPayDate" targetColumnName="d_firstprincipalpaydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_FirstInterestPayDate" targetColumnName="d_firstinterestpaydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_PrevPrincipalPayDate" targetColumnName="d_prevprincipalpaydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_PrevInterestPayDate" targetColumnName="d_previnterestpaydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_IntermPrincipalGracePeriodStartDate" targetColumnName="d_intermprincipalgraceperiodstartdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_IntermPrincipalGracePeriodEndDate" targetColumnName="d_intermprincipalgraceperiodenddate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_IntermInterestGracePeriodStartDate" targetColumnName="d_interminterestgraceperiodstartdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_IntermInterestGracePeriodEndDate" targetColumnName="d_interminterestgraceperiodenddate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_PrincipalAmortizationRate" targetColumnName="n_principalamortizationrate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_PrincipalAmortizationAmount" targetColumnName="n_principalamortizationamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_LastPrincipalPayAmount" targetColumnName="n_lastprincipalpayamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_RealEstateCollateralValue" targetColumnName="n_realestatecollateralvalue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_RealEstateLegalClaimValue" targetColumnName="n_realestatelegalclaimvalue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_RealEstateCollateralType" targetColumnName="c_realestatecollateraltype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_FinancialCollateralValue" targetColumnName="n_financialcollateralvalue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_FinancialCollateralType" targetColumnName="c_financialcollateraltype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_ThirdPartyGuaranteesValue" targetColumnName="n_thirdpartyguaranteesvalue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ThirdPartyGuaranteesType" targetColumnName="c_thirdpartyguaranteestype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_OtherTangibleAssetsValue" targetColumnName="n_othertangibleassetsvalue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_OtherTangibleAssetsType" targetColumnName="c_othertangibleassetstype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_Forbearance" targetColumnName="f_forbearance"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ForbearanceType" targetColumnName="c_forbearancetype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_WriteOffDate" targetColumnName="d_writeoffdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_RemissionPrincipalAmount" targetColumnName="n_remissionprincipalamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_RemissionInterestAmount" targetColumnName="n_remissioninterestamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_RemissionDate" targetColumnName="d_remissiondate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_LoanSales" targetColumnName="f_loansales"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_LoanSalesDate" targetColumnName="d_loansalesdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_LoanSalesPrice" targetColumnName="n_loansalesprice"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_Repossession" targetColumnName="f_repossession"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_RecoveryProcess" targetColumnName="f_recoveryprocess"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_RecoveryPhase" targetColumnName="c_recoveryphase"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="F_Default" targetColumnName="f_default"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_DefaultCriteria" targetColumnName="c_defaultcriteria"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField1" targetColumnName="auxfield1"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField2" targetColumnName="auxfield2"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField3" targetColumnName="auxfield3"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField4" targetColumnName="auxfield4"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField5" targetColumnName="auxfield5"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField6" targetColumnName="auxfield6"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField7" targetColumnName="auxfield7"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField8" targetColumnName="auxfield8"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField9" targetColumnName="auxfield9"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField10" targetColumnName="auxfield10"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField11" targetColumnName="auxfield11"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField12" targetColumnName="auxfield12"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField13" targetColumnName="auxfield13"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField14" targetColumnName="auxfield14"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField15" targetColumnName="auxfield15"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField16" targetColumnName="auxfield16"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField17" targetColumnName="auxfield17"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField18" targetColumnName="auxfield18"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField19" targetColumnName="auxfield19"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField20" targetColumnName="auxfield20"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField21" targetColumnName="auxfield21"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField22" targetColumnName="auxfield22"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField23" targetColumnName="auxfield23"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField24" targetColumnName="auxfield24"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField25" targetColumnName="auxfield25"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField26" targetColumnName="auxfield26"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField27" targetColumnName="auxfield27"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField28" targetColumnName="auxfield28"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField29" targetColumnName="auxfield29"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField30" targetColumnName="auxfield30"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField31" targetColumnName="auxfield31"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField32" targetColumnName="auxfield32"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField33" targetColumnName="auxfield33"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField34" targetColumnName="auxfield34"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField35" targetColumnName="auxfield35"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField36" targetColumnName="auxfield36"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField37" targetColumnName="auxfield37"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField38" targetColumnName="auxfield38"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField39" targetColumnName="auxfield39"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField40" targetColumnName="auxfield40"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField41" targetColumnName="auxfield41"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField42" targetColumnName="auxfield42"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField43" targetColumnName="auxfield43"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField44" targetColumnName="auxfield44"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField45" targetColumnName="auxfield45"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField46" targetColumnName="auxfield46"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField47" targetColumnName="auxfield47"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField48" targetColumnName="auxfield48"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField49" targetColumnName="auxfield49"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField50" targetColumnName="auxfield50"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField51" targetColumnName="auxfield51"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField52" targetColumnName="auxfield52"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField53" targetColumnName="auxfield53"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField54" targetColumnName="auxfield54"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField55" targetColumnName="auxfield55"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField56" targetColumnName="auxfield56"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField57" targetColumnName="auxfield57"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField58" targetColumnName="auxfield58"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField59" targetColumnName="auxfield59"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField60" targetColumnName="auxfield60"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField61" targetColumnName="auxfield61"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField62" targetColumnName="auxfield62"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField63" targetColumnName="auxfield63"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField64" targetColumnName="auxfield64"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField65" targetColumnName="auxfield65"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField66" targetColumnName="auxfield66"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField67" targetColumnName="auxfield67"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField68" targetColumnName="auxfield68"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField69" targetColumnName="auxfield69"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField70" targetColumnName="auxfield70"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField71" targetColumnName="auxfield71"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField72" targetColumnName="auxfield72"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField73" targetColumnName="auxfield73"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField74" targetColumnName="auxfield74"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField75" targetColumnName="auxfield75"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField76" targetColumnName="auxfield76"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField77" targetColumnName="auxfield77"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField78" targetColumnName="auxfield78"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField79" targetColumnName="auxfield79"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField80" targetColumnName="auxfield80"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField81" targetColumnName="auxfield81"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField82" targetColumnName="auxfield82"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField83" targetColumnName="auxfield83"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField84" targetColumnName="auxfield84"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField85" targetColumnName="auxfield85"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField86" targetColumnName="auxfield86"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField87" targetColumnName="auxfield87"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField88" targetColumnName="auxfield88"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField89" targetColumnName="auxfield89"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField90" targetColumnName="auxfield90"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField91" targetColumnName="auxfield91"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField92" targetColumnName="auxfield92"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField93" targetColumnName="auxfield93"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField94" targetColumnName="auxfield94"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField95" targetColumnName="auxfield95"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField96" targetColumnName="auxfield96"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField97" targetColumnName="auxfield97"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField98" targetColumnName="auxfield98"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField99" targetColumnName="auxfield99"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField100" targetColumnName="auxfield100"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField101" targetColumnName="auxfield101"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField102" targetColumnName="auxfield102"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField103" targetColumnName="auxfield103"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField104" targetColumnName="auxfield104"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField105" targetColumnName="auxfield105"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField106" targetColumnName="auxfield106"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField107" targetColumnName="auxfield107"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField108" targetColumnName="auxfield108"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField109" targetColumnName="auxfield109"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField110" targetColumnName="auxfield110"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField111" targetColumnName="auxfield111"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField112" targetColumnName="auxfield112"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField113" targetColumnName="auxfield113"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField114" targetColumnName="auxfield114"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField115" targetColumnName="auxfield115"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField116" targetColumnName="auxfield116"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField117" targetColumnName="auxfield117"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField118" targetColumnName="auxfield118"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField119" targetColumnName="auxfield119"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField120" targetColumnName="auxfield120"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField121" targetColumnName="auxfield121"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField122" targetColumnName="auxfield122"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField123" targetColumnName="auxfield123"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField124" targetColumnName="auxfield124"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField125" targetColumnName="auxfield125"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField126" targetColumnName="auxfield126"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField127" targetColumnName="auxfield127"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField128" targetColumnName="auxfield128"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField129" targetColumnName="auxfield129"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField130" targetColumnName="auxfield130"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField131" targetColumnName="auxfield131"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField132" targetColumnName="auxfield132"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField133" targetColumnName="auxfield133"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField134" targetColumnName="auxfield134"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField135" targetColumnName="auxfield135"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField136" targetColumnName="auxfield136"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField137" targetColumnName="auxfield137"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField138" targetColumnName="auxfield138"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField139" targetColumnName="auxfield139"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField140" targetColumnName="auxfield140"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="Local_10" label="Local_10" localFileName="/tmp/ModelingPD_BAI_rawdata/rcdataForbearance.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="rcdataForbearance">
+    <inputPort name="Local_1in">
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="D_ForbearanceDate" dataTypeDomain="STRING"/>
+      <fields name="ID_OriginalAccount" dataTypeDomain="STRING"/>
+      <fields name="ID_WorkoutAccount" dataTypeDomain="LONG"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="STRING"/>
+      <fields name="N_ForbearanceAmount" dataTypeDomain="DOUBLE"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_ReferenceDate" targetColumnName="d_referencedate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Customer" targetColumnName="id_customer"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_ForbearanceDate" targetColumnName="d_forbearancedate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_OriginalAccount" targetColumnName="id_originalaccount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_WorkoutAccount" targetColumnName="id_workoutaccount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ForbearanceType" targetColumnName="c_forbearancetype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_ForbearanceAmount" targetColumnName="n_forbearanceamount"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="Local_13" label="Local_13" localFileName="/tmp/ModelingPD_BAI_rawdata/Sectores_de_Economia.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="Sectores_de_Economia">
+    <inputPort name="Local_1in">
+      <fields name="ContractReference" dataTypeDomain="DECIMAL"/>
+      <fields name="EconomicActivity" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ContractReference" targetColumnName="contractreference"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EconomicActivity" targetColumnName="economicactivity"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="Local_16" label="Local_16" localFileName="/tmp/ModelingPD_BAI_rawdata/WriteOff.parquet" localFileFormat="PARQUET" saveMode="OVERWRITE" registerTable="true" hiveTableName="WriteOff">
+    <inputPort name="Local_1in">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="DOUBLE"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Entity" targetColumnName="id_entity"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Account" targetColumnName="id_account"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_AccountMask" targetColumnName="id_accountmask"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_ReferenceDate" targetColumnName="d_referencedate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ID_Customer" targetColumnName="id_customer"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_Portfolio" targetColumnName="c_portfolio"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ProductType" targetColumnName="c_producttype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_ProductSubType" targetColumnName="c_productsubtype"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_OutstandingPrincipalAmount" targetColumnName="n_outstandingprincipalamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_AccruedInterestAmount" targetColumnName="n_accruedinterestamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_PastDueAmount" targetColumnName="n_pastdueamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_WriteOffAmount" targetColumnName="n_writeoffamount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="C_Currency" targetColumnName="c_currency"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_StartDate" targetColumnName="d_startdate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="D_MaturityDate" targetColumnName="d_maturitydate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="N_DaysInArrears" targetColumnName="n_daysinarrears"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField3" targetColumnName="auxfield3"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField4" targetColumnName="auxfield4"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField50" targetColumnName="auxfield50"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AuxField52" targetColumnName="auxfield52"/>
+  </targets>
+  <transformationSteps xsi:type="etl:Sort" name="Sort_17" label="Sort_17">
+    <outputPort name="Sort_17out">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="STRING"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="C_Rating" dataTypeDomain="STRING"/>
+      <fields name="C_OriginationScoring" dataTypeDomain="STRING"/>
+      <fields name="C_BehaviourScoring" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_CreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_UsedCreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_CreditLineType" dataTypeDomain="STRING"/>
+      <fields name="F_CreditLineConditionality" dataTypeDomain="INTEGER"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="N_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_ContractualInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="C_InterestBasis" dataTypeDomain="INTEGER"/>
+      <fields name="C_InterestRateType" dataTypeDomain="INTEGER"/>
+      <fields name="C_IndexRate" dataTypeDomain="STRING"/>
+      <fields name="N_PenaltyInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="F_InterestSuspended" dataTypeDomain="INTEGER"/>
+      <fields name="C_AmortizationType" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayPrincipal" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayInterest" dataTypeDomain="INTEGER"/>
+      <fields name="D_FirstPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_FirstInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="N_PrincipalAmortizationRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PrincipalAmortizationAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_LastPrincipalPayAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateLegalClaimValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_RealEstateCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_FinancialCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_FinancialCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_ThirdPartyGuaranteesValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_ThirdPartyGuaranteesType" dataTypeDomain="STRING"/>
+      <fields name="N_OtherTangibleAssetsValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_OtherTangibleAssetsType" dataTypeDomain="STRING"/>
+      <fields name="F_Forbearance" dataTypeDomain="INTEGER"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="INTEGER"/>
+      <fields name="D_WriteOffDate" dataTypeDomain="STRING"/>
+      <fields name="N_RemissionPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RemissionInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="D_RemissionDate" dataTypeDomain="STRING"/>
+      <fields name="F_LoanSales" dataTypeDomain="INTEGER"/>
+      <fields name="D_LoanSalesDate" dataTypeDomain="STRING"/>
+      <fields name="N_LoanSalesPrice" dataTypeDomain="DOUBLE"/>
+      <fields name="F_Repossession" dataTypeDomain="INTEGER"/>
+      <fields name="F_RecoveryProcess" dataTypeDomain="INTEGER"/>
+      <fields name="C_RecoveryPhase" dataTypeDomain="INTEGER"/>
+      <fields name="F_Default" dataTypeDomain="INTEGER"/>
+      <fields name="C_DefaultCriteria" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField1" dataTypeDomain="STRING"/>
+      <fields name="AuxField2" dataTypeDomain="STRING"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField5" dataTypeDomain="STRING"/>
+      <fields name="AuxField6" dataTypeDomain="STRING"/>
+      <fields name="AuxField7" dataTypeDomain="STRING"/>
+      <fields name="AuxField8" dataTypeDomain="STRING"/>
+      <fields name="AuxField9" dataTypeDomain="STRING"/>
+      <fields name="AuxField10" dataTypeDomain="STRING"/>
+      <fields name="AuxField11" dataTypeDomain="STRING"/>
+      <fields name="AuxField12" dataTypeDomain="STRING"/>
+      <fields name="AuxField13" dataTypeDomain="STRING"/>
+      <fields name="AuxField14" dataTypeDomain="STRING"/>
+      <fields name="AuxField15" dataTypeDomain="STRING"/>
+      <fields name="AuxField16" dataTypeDomain="STRING"/>
+      <fields name="AuxField17" dataTypeDomain="STRING"/>
+      <fields name="AuxField18" dataTypeDomain="STRING"/>
+      <fields name="AuxField19" dataTypeDomain="STRING"/>
+      <fields name="AuxField20" dataTypeDomain="STRING"/>
+      <fields name="AuxField21" dataTypeDomain="STRING"/>
+      <fields name="AuxField22" dataTypeDomain="STRING"/>
+      <fields name="AuxField23" dataTypeDomain="STRING"/>
+      <fields name="AuxField24" dataTypeDomain="STRING"/>
+      <fields name="AuxField25" dataTypeDomain="STRING"/>
+      <fields name="AuxField26" dataTypeDomain="STRING"/>
+      <fields name="AuxField27" dataTypeDomain="STRING"/>
+      <fields name="AuxField28" dataTypeDomain="STRING"/>
+      <fields name="AuxField29" dataTypeDomain="STRING"/>
+      <fields name="AuxField30" dataTypeDomain="STRING"/>
+      <fields name="AuxField31" dataTypeDomain="STRING"/>
+      <fields name="AuxField32" dataTypeDomain="STRING"/>
+      <fields name="AuxField33" dataTypeDomain="STRING"/>
+      <fields name="AuxField34" dataTypeDomain="STRING"/>
+      <fields name="AuxField35" dataTypeDomain="STRING"/>
+      <fields name="AuxField36" dataTypeDomain="STRING"/>
+      <fields name="AuxField37" dataTypeDomain="STRING"/>
+      <fields name="AuxField38" dataTypeDomain="STRING"/>
+      <fields name="AuxField39" dataTypeDomain="STRING"/>
+      <fields name="AuxField40" dataTypeDomain="STRING"/>
+      <fields name="AuxField41" dataTypeDomain="STRING"/>
+      <fields name="AuxField42" dataTypeDomain="STRING"/>
+      <fields name="AuxField43" dataTypeDomain="STRING"/>
+      <fields name="AuxField44" dataTypeDomain="STRING"/>
+      <fields name="AuxField45" dataTypeDomain="STRING"/>
+      <fields name="AuxField46" dataTypeDomain="STRING"/>
+      <fields name="AuxField47" dataTypeDomain="STRING"/>
+      <fields name="AuxField48" dataTypeDomain="STRING"/>
+      <fields name="AuxField49" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField51" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField53" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField54" dataTypeDomain="STRING"/>
+      <fields name="AuxField55" dataTypeDomain="STRING"/>
+      <fields name="AuxField56" dataTypeDomain="STRING"/>
+      <fields name="AuxField57" dataTypeDomain="STRING"/>
+      <fields name="AuxField58" dataTypeDomain="STRING"/>
+      <fields name="AuxField59" dataTypeDomain="STRING"/>
+      <fields name="AuxField60" dataTypeDomain="STRING"/>
+      <fields name="AuxField61" dataTypeDomain="STRING"/>
+      <fields name="AuxField62" dataTypeDomain="STRING"/>
+      <fields name="AuxField63" dataTypeDomain="STRING"/>
+      <fields name="AuxField64" dataTypeDomain="STRING"/>
+      <fields name="AuxField65" dataTypeDomain="STRING"/>
+      <fields name="AuxField66" dataTypeDomain="STRING"/>
+      <fields name="AuxField67" dataTypeDomain="STRING"/>
+      <fields name="AuxField68" dataTypeDomain="STRING"/>
+      <fields name="AuxField69" dataTypeDomain="STRING"/>
+      <fields name="AuxField70" dataTypeDomain="STRING"/>
+      <fields name="AuxField71" dataTypeDomain="STRING"/>
+      <fields name="AuxField72" dataTypeDomain="STRING"/>
+      <fields name="AuxField73" dataTypeDomain="STRING"/>
+      <fields name="AuxField74" dataTypeDomain="STRING"/>
+      <fields name="AuxField75" dataTypeDomain="STRING"/>
+      <fields name="AuxField76" dataTypeDomain="STRING"/>
+      <fields name="AuxField77" dataTypeDomain="STRING"/>
+      <fields name="AuxField78" dataTypeDomain="STRING"/>
+      <fields name="AuxField79" dataTypeDomain="STRING"/>
+      <fields name="AuxField80" dataTypeDomain="STRING"/>
+      <fields name="AuxField81" dataTypeDomain="STRING"/>
+      <fields name="AuxField82" dataTypeDomain="STRING"/>
+      <fields name="AuxField83" dataTypeDomain="STRING"/>
+      <fields name="AuxField84" dataTypeDomain="STRING"/>
+      <fields name="AuxField85" dataTypeDomain="STRING"/>
+      <fields name="AuxField86" dataTypeDomain="STRING"/>
+      <fields name="AuxField87" dataTypeDomain="STRING"/>
+      <fields name="AuxField88" dataTypeDomain="STRING"/>
+      <fields name="AuxField89" dataTypeDomain="STRING"/>
+      <fields name="AuxField90" dataTypeDomain="STRING"/>
+      <fields name="AuxField91" dataTypeDomain="STRING"/>
+      <fields name="AuxField92" dataTypeDomain="STRING"/>
+      <fields name="AuxField93" dataTypeDomain="STRING"/>
+      <fields name="AuxField94" dataTypeDomain="STRING"/>
+      <fields name="AuxField95" dataTypeDomain="STRING"/>
+      <fields name="AuxField96" dataTypeDomain="STRING"/>
+      <fields name="AuxField97" dataTypeDomain="STRING"/>
+      <fields name="AuxField98" dataTypeDomain="STRING"/>
+      <fields name="AuxField99" dataTypeDomain="STRING"/>
+      <fields name="AuxField100" dataTypeDomain="STRING"/>
+      <fields name="AuxField101" dataTypeDomain="STRING"/>
+      <fields name="AuxField102" dataTypeDomain="STRING"/>
+      <fields name="AuxField103" dataTypeDomain="STRING"/>
+      <fields name="AuxField104" dataTypeDomain="STRING"/>
+      <fields name="AuxField105" dataTypeDomain="STRING"/>
+      <fields name="AuxField106" dataTypeDomain="STRING"/>
+      <fields name="AuxField107" dataTypeDomain="STRING"/>
+      <fields name="AuxField108" dataTypeDomain="STRING"/>
+      <fields name="AuxField109" dataTypeDomain="STRING"/>
+      <fields name="AuxField110" dataTypeDomain="STRING"/>
+      <fields name="AuxField111" dataTypeDomain="STRING"/>
+      <fields name="AuxField112" dataTypeDomain="STRING"/>
+      <fields name="AuxField113" dataTypeDomain="STRING"/>
+      <fields name="AuxField114" dataTypeDomain="STRING"/>
+      <fields name="AuxField115" dataTypeDomain="STRING"/>
+      <fields name="AuxField116" dataTypeDomain="STRING"/>
+      <fields name="AuxField117" dataTypeDomain="STRING"/>
+      <fields name="AuxField118" dataTypeDomain="STRING"/>
+      <fields name="AuxField119" dataTypeDomain="STRING"/>
+      <fields name="AuxField120" dataTypeDomain="STRING"/>
+      <fields name="AuxField121" dataTypeDomain="STRING"/>
+      <fields name="AuxField122" dataTypeDomain="STRING"/>
+      <fields name="AuxField123" dataTypeDomain="STRING"/>
+      <fields name="AuxField124" dataTypeDomain="STRING"/>
+      <fields name="AuxField125" dataTypeDomain="STRING"/>
+      <fields name="AuxField126" dataTypeDomain="STRING"/>
+      <fields name="AuxField127" dataTypeDomain="STRING"/>
+      <fields name="AuxField128" dataTypeDomain="STRING"/>
+      <fields name="AuxField129" dataTypeDomain="STRING"/>
+      <fields name="AuxField130" dataTypeDomain="STRING"/>
+      <fields name="AuxField131" dataTypeDomain="STRING"/>
+      <fields name="AuxField132" dataTypeDomain="STRING"/>
+      <fields name="AuxField133" dataTypeDomain="STRING"/>
+      <fields name="AuxField134" dataTypeDomain="STRING"/>
+      <fields name="AuxField135" dataTypeDomain="STRING"/>
+      <fields name="AuxField136" dataTypeDomain="STRING"/>
+      <fields name="AuxField137" dataTypeDomain="STRING"/>
+      <fields name="AuxField138" dataTypeDomain="STRING"/>
+      <fields name="AuxField139" dataTypeDomain="STRING"/>
+      <fields name="AuxField140" dataTypeDomain="STRING"/>
+    </outputPort>
+    <inputPort name="Sort_17in">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="STRING"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="C_Rating" dataTypeDomain="STRING"/>
+      <fields name="C_OriginationScoring" dataTypeDomain="STRING"/>
+      <fields name="C_BehaviourScoring" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_CreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_UsedCreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_CreditLineType" dataTypeDomain="STRING"/>
+      <fields name="F_CreditLineConditionality" dataTypeDomain="INTEGER"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="N_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_ContractualInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="C_InterestBasis" dataTypeDomain="INTEGER"/>
+      <fields name="C_InterestRateType" dataTypeDomain="INTEGER"/>
+      <fields name="C_IndexRate" dataTypeDomain="STRING"/>
+      <fields name="N_PenaltyInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="F_InterestSuspended" dataTypeDomain="INTEGER"/>
+      <fields name="C_AmortizationType" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayPrincipal" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayInterest" dataTypeDomain="INTEGER"/>
+      <fields name="D_FirstPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_FirstInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="N_PrincipalAmortizationRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PrincipalAmortizationAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_LastPrincipalPayAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateLegalClaimValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_RealEstateCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_FinancialCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_FinancialCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_ThirdPartyGuaranteesValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_ThirdPartyGuaranteesType" dataTypeDomain="STRING"/>
+      <fields name="N_OtherTangibleAssetsValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_OtherTangibleAssetsType" dataTypeDomain="STRING"/>
+      <fields name="F_Forbearance" dataTypeDomain="INTEGER"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="INTEGER"/>
+      <fields name="D_WriteOffDate" dataTypeDomain="STRING"/>
+      <fields name="N_RemissionPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RemissionInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="D_RemissionDate" dataTypeDomain="STRING"/>
+      <fields name="F_LoanSales" dataTypeDomain="INTEGER"/>
+      <fields name="D_LoanSalesDate" dataTypeDomain="STRING"/>
+      <fields name="N_LoanSalesPrice" dataTypeDomain="DOUBLE"/>
+      <fields name="F_Repossession" dataTypeDomain="INTEGER"/>
+      <fields name="F_RecoveryProcess" dataTypeDomain="INTEGER"/>
+      <fields name="C_RecoveryPhase" dataTypeDomain="INTEGER"/>
+      <fields name="F_Default" dataTypeDomain="INTEGER"/>
+      <fields name="C_DefaultCriteria" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField1" dataTypeDomain="STRING"/>
+      <fields name="AuxField2" dataTypeDomain="STRING"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField5" dataTypeDomain="STRING"/>
+      <fields name="AuxField6" dataTypeDomain="STRING"/>
+      <fields name="AuxField7" dataTypeDomain="STRING"/>
+      <fields name="AuxField8" dataTypeDomain="STRING"/>
+      <fields name="AuxField9" dataTypeDomain="STRING"/>
+      <fields name="AuxField10" dataTypeDomain="STRING"/>
+      <fields name="AuxField11" dataTypeDomain="STRING"/>
+      <fields name="AuxField12" dataTypeDomain="STRING"/>
+      <fields name="AuxField13" dataTypeDomain="STRING"/>
+      <fields name="AuxField14" dataTypeDomain="STRING"/>
+      <fields name="AuxField15" dataTypeDomain="STRING"/>
+      <fields name="AuxField16" dataTypeDomain="STRING"/>
+      <fields name="AuxField17" dataTypeDomain="STRING"/>
+      <fields name="AuxField18" dataTypeDomain="STRING"/>
+      <fields name="AuxField19" dataTypeDomain="STRING"/>
+      <fields name="AuxField20" dataTypeDomain="STRING"/>
+      <fields name="AuxField21" dataTypeDomain="STRING"/>
+      <fields name="AuxField22" dataTypeDomain="STRING"/>
+      <fields name="AuxField23" dataTypeDomain="STRING"/>
+      <fields name="AuxField24" dataTypeDomain="STRING"/>
+      <fields name="AuxField25" dataTypeDomain="STRING"/>
+      <fields name="AuxField26" dataTypeDomain="STRING"/>
+      <fields name="AuxField27" dataTypeDomain="STRING"/>
+      <fields name="AuxField28" dataTypeDomain="STRING"/>
+      <fields name="AuxField29" dataTypeDomain="STRING"/>
+      <fields name="AuxField30" dataTypeDomain="STRING"/>
+      <fields name="AuxField31" dataTypeDomain="STRING"/>
+      <fields name="AuxField32" dataTypeDomain="STRING"/>
+      <fields name="AuxField33" dataTypeDomain="STRING"/>
+      <fields name="AuxField34" dataTypeDomain="STRING"/>
+      <fields name="AuxField35" dataTypeDomain="STRING"/>
+      <fields name="AuxField36" dataTypeDomain="STRING"/>
+      <fields name="AuxField37" dataTypeDomain="STRING"/>
+      <fields name="AuxField38" dataTypeDomain="STRING"/>
+      <fields name="AuxField39" dataTypeDomain="STRING"/>
+      <fields name="AuxField40" dataTypeDomain="STRING"/>
+      <fields name="AuxField41" dataTypeDomain="STRING"/>
+      <fields name="AuxField42" dataTypeDomain="STRING"/>
+      <fields name="AuxField43" dataTypeDomain="STRING"/>
+      <fields name="AuxField44" dataTypeDomain="STRING"/>
+      <fields name="AuxField45" dataTypeDomain="STRING"/>
+      <fields name="AuxField46" dataTypeDomain="STRING"/>
+      <fields name="AuxField47" dataTypeDomain="STRING"/>
+      <fields name="AuxField48" dataTypeDomain="STRING"/>
+      <fields name="AuxField49" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField51" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField53" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField54" dataTypeDomain="STRING"/>
+      <fields name="AuxField55" dataTypeDomain="STRING"/>
+      <fields name="AuxField56" dataTypeDomain="STRING"/>
+      <fields name="AuxField57" dataTypeDomain="STRING"/>
+      <fields name="AuxField58" dataTypeDomain="STRING"/>
+      <fields name="AuxField59" dataTypeDomain="STRING"/>
+      <fields name="AuxField60" dataTypeDomain="STRING"/>
+      <fields name="AuxField61" dataTypeDomain="STRING"/>
+      <fields name="AuxField62" dataTypeDomain="STRING"/>
+      <fields name="AuxField63" dataTypeDomain="STRING"/>
+      <fields name="AuxField64" dataTypeDomain="STRING"/>
+      <fields name="AuxField65" dataTypeDomain="STRING"/>
+      <fields name="AuxField66" dataTypeDomain="STRING"/>
+      <fields name="AuxField67" dataTypeDomain="STRING"/>
+      <fields name="AuxField68" dataTypeDomain="STRING"/>
+      <fields name="AuxField69" dataTypeDomain="STRING"/>
+      <fields name="AuxField70" dataTypeDomain="STRING"/>
+      <fields name="AuxField71" dataTypeDomain="STRING"/>
+      <fields name="AuxField72" dataTypeDomain="STRING"/>
+      <fields name="AuxField73" dataTypeDomain="STRING"/>
+      <fields name="AuxField74" dataTypeDomain="STRING"/>
+      <fields name="AuxField75" dataTypeDomain="STRING"/>
+      <fields name="AuxField76" dataTypeDomain="STRING"/>
+      <fields name="AuxField77" dataTypeDomain="STRING"/>
+      <fields name="AuxField78" dataTypeDomain="STRING"/>
+      <fields name="AuxField79" dataTypeDomain="STRING"/>
+      <fields name="AuxField80" dataTypeDomain="STRING"/>
+      <fields name="AuxField81" dataTypeDomain="STRING"/>
+      <fields name="AuxField82" dataTypeDomain="STRING"/>
+      <fields name="AuxField83" dataTypeDomain="STRING"/>
+      <fields name="AuxField84" dataTypeDomain="STRING"/>
+      <fields name="AuxField85" dataTypeDomain="STRING"/>
+      <fields name="AuxField86" dataTypeDomain="STRING"/>
+      <fields name="AuxField87" dataTypeDomain="STRING"/>
+      <fields name="AuxField88" dataTypeDomain="STRING"/>
+      <fields name="AuxField89" dataTypeDomain="STRING"/>
+      <fields name="AuxField90" dataTypeDomain="STRING"/>
+      <fields name="AuxField91" dataTypeDomain="STRING"/>
+      <fields name="AuxField92" dataTypeDomain="STRING"/>
+      <fields name="AuxField93" dataTypeDomain="STRING"/>
+      <fields name="AuxField94" dataTypeDomain="STRING"/>
+      <fields name="AuxField95" dataTypeDomain="STRING"/>
+      <fields name="AuxField96" dataTypeDomain="STRING"/>
+      <fields name="AuxField97" dataTypeDomain="STRING"/>
+      <fields name="AuxField98" dataTypeDomain="STRING"/>
+      <fields name="AuxField99" dataTypeDomain="STRING"/>
+      <fields name="AuxField100" dataTypeDomain="STRING"/>
+      <fields name="AuxField101" dataTypeDomain="STRING"/>
+      <fields name="AuxField102" dataTypeDomain="STRING"/>
+      <fields name="AuxField103" dataTypeDomain="STRING"/>
+      <fields name="AuxField104" dataTypeDomain="STRING"/>
+      <fields name="AuxField105" dataTypeDomain="STRING"/>
+      <fields name="AuxField106" dataTypeDomain="STRING"/>
+      <fields name="AuxField107" dataTypeDomain="STRING"/>
+      <fields name="AuxField108" dataTypeDomain="STRING"/>
+      <fields name="AuxField109" dataTypeDomain="STRING"/>
+      <fields name="AuxField110" dataTypeDomain="STRING"/>
+      <fields name="AuxField111" dataTypeDomain="STRING"/>
+      <fields name="AuxField112" dataTypeDomain="STRING"/>
+      <fields name="AuxField113" dataTypeDomain="STRING"/>
+      <fields name="AuxField114" dataTypeDomain="STRING"/>
+      <fields name="AuxField115" dataTypeDomain="STRING"/>
+      <fields name="AuxField116" dataTypeDomain="STRING"/>
+      <fields name="AuxField117" dataTypeDomain="STRING"/>
+      <fields name="AuxField118" dataTypeDomain="STRING"/>
+      <fields name="AuxField119" dataTypeDomain="STRING"/>
+      <fields name="AuxField120" dataTypeDomain="STRING"/>
+      <fields name="AuxField121" dataTypeDomain="STRING"/>
+      <fields name="AuxField122" dataTypeDomain="STRING"/>
+      <fields name="AuxField123" dataTypeDomain="STRING"/>
+      <fields name="AuxField124" dataTypeDomain="STRING"/>
+      <fields name="AuxField125" dataTypeDomain="STRING"/>
+      <fields name="AuxField126" dataTypeDomain="STRING"/>
+      <fields name="AuxField127" dataTypeDomain="STRING"/>
+      <fields name="AuxField128" dataTypeDomain="STRING"/>
+      <fields name="AuxField129" dataTypeDomain="STRING"/>
+      <fields name="AuxField130" dataTypeDomain="STRING"/>
+      <fields name="AuxField131" dataTypeDomain="STRING"/>
+      <fields name="AuxField132" dataTypeDomain="STRING"/>
+      <fields name="AuxField133" dataTypeDomain="STRING"/>
+      <fields name="AuxField134" dataTypeDomain="STRING"/>
+      <fields name="AuxField135" dataTypeDomain="STRING"/>
+      <fields name="AuxField136" dataTypeDomain="STRING"/>
+      <fields name="AuxField137" dataTypeDomain="STRING"/>
+      <fields name="AuxField138" dataTypeDomain="STRING"/>
+      <fields name="AuxField139" dataTypeDomain="STRING"/>
+      <fields name="AuxField140" dataTypeDomain="STRING"/>
+    </inputPort>
+    <sortFeatures fieldName="ID_Customer"/>
+    <sortFeatures fieldName="ID_Account"/>
+    <sortFeatures fieldName="D_ReferenceDate"/>
+  </transformationSteps>
+  <sources xsi:type="etl:CSVSource" name="DictPortfolio" label="DictPortfolio" path="/tmp/ModelingPD_BAI_rawdata/DictPortfolio.csv" header="true" delimiter=";" quote="&quot;" escape="\">
+    <outputPort name="CSV_1out">
+      <fields name="Code" dataTypeDomain="STRING"/>
+      <fields name="Name" dataTypeDomain="STRING"/>
+      <fields name="Name_Eng" dataTypeDomain="STRING"/>
+      <fields name="_c3" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:CSVSource" name="GE_EconomicActivityMissing" label="GE_EconomicActivityMissing" path="/tmp/ModelingPD_BAI_rawdata/GE_EconomicActivityMissing.csv" header="true" delimiter=";" quote="&quot;" escape="\">
+    <outputPort name="CSV_1out">
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="EconomicActivity" dataTypeDomain="STRING"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="Nperiods" dataTypeDomain="INTEGER"/>
+      <fields name="minStartDate" dataTypeDomain="STRING"/>
+      <fields name="minStartDate_Year" dataTypeDomain="INTEGER"/>
+      <fields name="CAE" dataTypeDomain="INTEGER"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:CSVSource" name="rcdataAccounts" label="rcdataAccounts" path="/tmp/ModelingPD_BAI_rawdata/rcdataAccounts.csv" header="true" delimiter=";" quote="'" escape="/">
+    <outputPort name="CSV_1out">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="STRING"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="C_Rating" dataTypeDomain="STRING"/>
+      <fields name="C_OriginationScoring" dataTypeDomain="STRING"/>
+      <fields name="C_BehaviourScoring" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_CreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_UsedCreditLineAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_CreditLineType" dataTypeDomain="STRING"/>
+      <fields name="F_CreditLineConditionality" dataTypeDomain="INTEGER"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="N_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_ContractualInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="C_InterestBasis" dataTypeDomain="INTEGER"/>
+      <fields name="C_InterestRateType" dataTypeDomain="INTEGER"/>
+      <fields name="C_IndexRate" dataTypeDomain="STRING"/>
+      <fields name="N_PenaltyInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_EffectiveInterestSpread" dataTypeDomain="DOUBLE"/>
+      <fields name="F_InterestSuspended" dataTypeDomain="INTEGER"/>
+      <fields name="C_AmortizationType" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayPrincipal" dataTypeDomain="INTEGER"/>
+      <fields name="C_FreqPayInterest" dataTypeDomain="INTEGER"/>
+      <fields name="D_FirstPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_FirstInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevPrincipalPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_PrevInterestPayDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermPrincipalGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodStartDate" dataTypeDomain="STRING"/>
+      <fields name="D_IntermInterestGracePeriodEndDate" dataTypeDomain="STRING"/>
+      <fields name="N_PrincipalAmortizationRate" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PrincipalAmortizationAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_LastPrincipalPayAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RealEstateLegalClaimValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_RealEstateCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_FinancialCollateralValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_FinancialCollateralType" dataTypeDomain="STRING"/>
+      <fields name="N_ThirdPartyGuaranteesValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_ThirdPartyGuaranteesType" dataTypeDomain="STRING"/>
+      <fields name="N_OtherTangibleAssetsValue" dataTypeDomain="DOUBLE"/>
+      <fields name="C_OtherTangibleAssetsType" dataTypeDomain="STRING"/>
+      <fields name="F_Forbearance" dataTypeDomain="INTEGER"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="INTEGER"/>
+      <fields name="D_WriteOffDate" dataTypeDomain="STRING"/>
+      <fields name="N_RemissionPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_RemissionInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="D_RemissionDate" dataTypeDomain="STRING"/>
+      <fields name="F_LoanSales" dataTypeDomain="INTEGER"/>
+      <fields name="D_LoanSalesDate" dataTypeDomain="STRING"/>
+      <fields name="N_LoanSalesPrice" dataTypeDomain="DOUBLE"/>
+      <fields name="F_Repossession" dataTypeDomain="INTEGER"/>
+      <fields name="F_RecoveryProcess" dataTypeDomain="INTEGER"/>
+      <fields name="C_RecoveryPhase" dataTypeDomain="INTEGER"/>
+      <fields name="F_Default" dataTypeDomain="INTEGER"/>
+      <fields name="C_DefaultCriteria" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField1" dataTypeDomain="STRING"/>
+      <fields name="AuxField2" dataTypeDomain="STRING"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField5" dataTypeDomain="STRING"/>
+      <fields name="AuxField6" dataTypeDomain="STRING"/>
+      <fields name="AuxField7" dataTypeDomain="STRING"/>
+      <fields name="AuxField8" dataTypeDomain="STRING"/>
+      <fields name="AuxField9" dataTypeDomain="STRING"/>
+      <fields name="AuxField10" dataTypeDomain="STRING"/>
+      <fields name="AuxField11" dataTypeDomain="STRING"/>
+      <fields name="AuxField12" dataTypeDomain="STRING"/>
+      <fields name="AuxField13" dataTypeDomain="STRING"/>
+      <fields name="AuxField14" dataTypeDomain="STRING"/>
+      <fields name="AuxField15" dataTypeDomain="STRING"/>
+      <fields name="AuxField16" dataTypeDomain="STRING"/>
+      <fields name="AuxField17" dataTypeDomain="STRING"/>
+      <fields name="AuxField18" dataTypeDomain="STRING"/>
+      <fields name="AuxField19" dataTypeDomain="STRING"/>
+      <fields name="AuxField20" dataTypeDomain="STRING"/>
+      <fields name="AuxField21" dataTypeDomain="STRING"/>
+      <fields name="AuxField22" dataTypeDomain="STRING"/>
+      <fields name="AuxField23" dataTypeDomain="STRING"/>
+      <fields name="AuxField24" dataTypeDomain="STRING"/>
+      <fields name="AuxField25" dataTypeDomain="STRING"/>
+      <fields name="AuxField26" dataTypeDomain="STRING"/>
+      <fields name="AuxField27" dataTypeDomain="STRING"/>
+      <fields name="AuxField28" dataTypeDomain="STRING"/>
+      <fields name="AuxField29" dataTypeDomain="STRING"/>
+      <fields name="AuxField30" dataTypeDomain="STRING"/>
+      <fields name="AuxField31" dataTypeDomain="STRING"/>
+      <fields name="AuxField32" dataTypeDomain="STRING"/>
+      <fields name="AuxField33" dataTypeDomain="STRING"/>
+      <fields name="AuxField34" dataTypeDomain="STRING"/>
+      <fields name="AuxField35" dataTypeDomain="STRING"/>
+      <fields name="AuxField36" dataTypeDomain="STRING"/>
+      <fields name="AuxField37" dataTypeDomain="STRING"/>
+      <fields name="AuxField38" dataTypeDomain="STRING"/>
+      <fields name="AuxField39" dataTypeDomain="STRING"/>
+      <fields name="AuxField40" dataTypeDomain="STRING"/>
+      <fields name="AuxField41" dataTypeDomain="STRING"/>
+      <fields name="AuxField42" dataTypeDomain="STRING"/>
+      <fields name="AuxField43" dataTypeDomain="STRING"/>
+      <fields name="AuxField44" dataTypeDomain="STRING"/>
+      <fields name="AuxField45" dataTypeDomain="STRING"/>
+      <fields name="AuxField46" dataTypeDomain="STRING"/>
+      <fields name="AuxField47" dataTypeDomain="STRING"/>
+      <fields name="AuxField48" dataTypeDomain="STRING"/>
+      <fields name="AuxField49" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField51" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField53" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField54" dataTypeDomain="STRING"/>
+      <fields name="AuxField55" dataTypeDomain="STRING"/>
+      <fields name="AuxField56" dataTypeDomain="STRING"/>
+      <fields name="AuxField57" dataTypeDomain="STRING"/>
+      <fields name="AuxField58" dataTypeDomain="STRING"/>
+      <fields name="AuxField59" dataTypeDomain="STRING"/>
+      <fields name="AuxField60" dataTypeDomain="STRING"/>
+      <fields name="AuxField61" dataTypeDomain="STRING"/>
+      <fields name="AuxField62" dataTypeDomain="STRING"/>
+      <fields name="AuxField63" dataTypeDomain="STRING"/>
+      <fields name="AuxField64" dataTypeDomain="STRING"/>
+      <fields name="AuxField65" dataTypeDomain="STRING"/>
+      <fields name="AuxField66" dataTypeDomain="STRING"/>
+      <fields name="AuxField67" dataTypeDomain="STRING"/>
+      <fields name="AuxField68" dataTypeDomain="STRING"/>
+      <fields name="AuxField69" dataTypeDomain="STRING"/>
+      <fields name="AuxField70" dataTypeDomain="STRING"/>
+      <fields name="AuxField71" dataTypeDomain="STRING"/>
+      <fields name="AuxField72" dataTypeDomain="STRING"/>
+      <fields name="AuxField73" dataTypeDomain="STRING"/>
+      <fields name="AuxField74" dataTypeDomain="STRING"/>
+      <fields name="AuxField75" dataTypeDomain="STRING"/>
+      <fields name="AuxField76" dataTypeDomain="STRING"/>
+      <fields name="AuxField77" dataTypeDomain="STRING"/>
+      <fields name="AuxField78" dataTypeDomain="STRING"/>
+      <fields name="AuxField79" dataTypeDomain="STRING"/>
+      <fields name="AuxField80" dataTypeDomain="STRING"/>
+      <fields name="AuxField81" dataTypeDomain="STRING"/>
+      <fields name="AuxField82" dataTypeDomain="STRING"/>
+      <fields name="AuxField83" dataTypeDomain="STRING"/>
+      <fields name="AuxField84" dataTypeDomain="STRING"/>
+      <fields name="AuxField85" dataTypeDomain="STRING"/>
+      <fields name="AuxField86" dataTypeDomain="STRING"/>
+      <fields name="AuxField87" dataTypeDomain="STRING"/>
+      <fields name="AuxField88" dataTypeDomain="STRING"/>
+      <fields name="AuxField89" dataTypeDomain="STRING"/>
+      <fields name="AuxField90" dataTypeDomain="STRING"/>
+      <fields name="AuxField91" dataTypeDomain="STRING"/>
+      <fields name="AuxField92" dataTypeDomain="STRING"/>
+      <fields name="AuxField93" dataTypeDomain="STRING"/>
+      <fields name="AuxField94" dataTypeDomain="STRING"/>
+      <fields name="AuxField95" dataTypeDomain="STRING"/>
+      <fields name="AuxField96" dataTypeDomain="STRING"/>
+      <fields name="AuxField97" dataTypeDomain="STRING"/>
+      <fields name="AuxField98" dataTypeDomain="STRING"/>
+      <fields name="AuxField99" dataTypeDomain="STRING"/>
+      <fields name="AuxField100" dataTypeDomain="STRING"/>
+      <fields name="AuxField101" dataTypeDomain="STRING"/>
+      <fields name="AuxField102" dataTypeDomain="STRING"/>
+      <fields name="AuxField103" dataTypeDomain="STRING"/>
+      <fields name="AuxField104" dataTypeDomain="STRING"/>
+      <fields name="AuxField105" dataTypeDomain="STRING"/>
+      <fields name="AuxField106" dataTypeDomain="STRING"/>
+      <fields name="AuxField107" dataTypeDomain="STRING"/>
+      <fields name="AuxField108" dataTypeDomain="STRING"/>
+      <fields name="AuxField109" dataTypeDomain="STRING"/>
+      <fields name="AuxField110" dataTypeDomain="STRING"/>
+      <fields name="AuxField111" dataTypeDomain="STRING"/>
+      <fields name="AuxField112" dataTypeDomain="STRING"/>
+      <fields name="AuxField113" dataTypeDomain="STRING"/>
+      <fields name="AuxField114" dataTypeDomain="STRING"/>
+      <fields name="AuxField115" dataTypeDomain="STRING"/>
+      <fields name="AuxField116" dataTypeDomain="STRING"/>
+      <fields name="AuxField117" dataTypeDomain="STRING"/>
+      <fields name="AuxField118" dataTypeDomain="STRING"/>
+      <fields name="AuxField119" dataTypeDomain="STRING"/>
+      <fields name="AuxField120" dataTypeDomain="STRING"/>
+      <fields name="AuxField121" dataTypeDomain="STRING"/>
+      <fields name="AuxField122" dataTypeDomain="STRING"/>
+      <fields name="AuxField123" dataTypeDomain="STRING"/>
+      <fields name="AuxField124" dataTypeDomain="STRING"/>
+      <fields name="AuxField125" dataTypeDomain="STRING"/>
+      <fields name="AuxField126" dataTypeDomain="STRING"/>
+      <fields name="AuxField127" dataTypeDomain="STRING"/>
+      <fields name="AuxField128" dataTypeDomain="STRING"/>
+      <fields name="AuxField129" dataTypeDomain="STRING"/>
+      <fields name="AuxField130" dataTypeDomain="STRING"/>
+      <fields name="AuxField131" dataTypeDomain="STRING"/>
+      <fields name="AuxField132" dataTypeDomain="STRING"/>
+      <fields name="AuxField133" dataTypeDomain="STRING"/>
+      <fields name="AuxField134" dataTypeDomain="STRING"/>
+      <fields name="AuxField135" dataTypeDomain="STRING"/>
+      <fields name="AuxField136" dataTypeDomain="STRING"/>
+      <fields name="AuxField137" dataTypeDomain="STRING"/>
+      <fields name="AuxField138" dataTypeDomain="STRING"/>
+      <fields name="AuxField139" dataTypeDomain="STRING"/>
+      <fields name="AuxField140" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:CSVSource" name="rcdataForbearance" label="rcdataForbearance" path="/tmp/ModelingPD_BAI_rawdata/rcdataForbearance.csv" header="true" delimiter=";" quote="'" escape="/">
+    <outputPort name="CSV_1out">
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="D_ForbearanceDate" dataTypeDomain="STRING"/>
+      <fields name="ID_OriginalAccount" dataTypeDomain="STRING"/>
+      <fields name="ID_WorkoutAccount" dataTypeDomain="LONG"/>
+      <fields name="C_ForbearanceType" dataTypeDomain="STRING"/>
+      <fields name="N_ForbearanceAmount" dataTypeDomain="DOUBLE"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:CSVSource" name="Sectores_de_Economia" label="Sectores_de_Economia" path="/tmp/ModelingPD_BAI_rawdata/Sectores_de_Economia.csv" header="true" delimiter=";" quote="&quot;" escape="\">
+    <outputPort name="CSV_1out">
+      <fields name="ContractReference" dataTypeDomain="DECIMAL"/>
+      <fields name="EconomicActivity" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:CSVSource" name="WriteOff" label="WriteOff" path="/tmp/ModelingPD_BAI_rawdata/WriteOff.csv" header="true" delimiter=";" quote="&quot;" escape="\">
+    <outputPort name="CSV_1out">
+      <fields name="ID_Entity" dataTypeDomain="STRING"/>
+      <fields name="ID_Account" dataTypeDomain="LONG"/>
+      <fields name="ID_AccountMask" dataTypeDomain="DOUBLE"/>
+      <fields name="D_ReferenceDate" dataTypeDomain="INTEGER"/>
+      <fields name="ID_Customer" dataTypeDomain="INTEGER"/>
+      <fields name="C_Portfolio" dataTypeDomain="STRING"/>
+      <fields name="C_ProductType" dataTypeDomain="STRING"/>
+      <fields name="C_ProductSubType" dataTypeDomain="STRING"/>
+      <fields name="N_OutstandingPrincipalAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_AccruedInterestAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_PastDueAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="N_WriteOffAmount" dataTypeDomain="DOUBLE"/>
+      <fields name="C_Currency" dataTypeDomain="STRING"/>
+      <fields name="D_StartDate" dataTypeDomain="STRING"/>
+      <fields name="D_MaturityDate" dataTypeDomain="STRING"/>
+      <fields name="N_DaysInArrears" dataTypeDomain="INTEGER"/>
+      <fields name="AuxField3" dataTypeDomain="STRING"/>
+      <fields name="AuxField4" dataTypeDomain="STRING"/>
+      <fields name="AuxField50" dataTypeDomain="DOUBLE"/>
+      <fields name="AuxField52" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <transitions name="8a33b126-0ecf-4a15-a25c-39ccb34893c1" start="//@sources.1/@outputPort" finish="//@targets.1/@inputPort"/>
+  <transitions name="ee4c7b56-7280-4e69-a4a5-52a0ac084b9e" start="//@sources.3/@outputPort" finish="//@targets.3/@inputPort"/>
+  <transitions name="a48e6c28-6165-4f74-ba1c-a0fb1bb619d5" start="//@sources.4/@outputPort" finish="//@targets.4/@inputPort"/>
+  <transitions name="3d2330cf-b35f-4362-95e7-2e291d4251b4" start="//@sources.5/@outputPort" finish="//@targets.5/@inputPort"/>
+  <transitions name="e4453775-1cf2-4e72-aff4-988a7c5f4aea" start="//@sources.0/@outputPort" finish="//@targets.0/@inputPort"/>
+  <transitions name="233598d9-343a-41be-9e15-4e27d13e3403" start="//@sources.2/@outputPort" finish="//@transformationSteps.0/@inputPort"/>
+  <transitions name="e341e4ec-0c14-4343-842b-454c5e215c8a" start="//@transformationSteps.0/@outputPort" finish="//@targets.2/@inputPort"/>
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T13:39:56.856+0300" createUser="admin" createDateTime="2019-05-13T13:57:45.118+0300"/>
+</etl:Transformation>

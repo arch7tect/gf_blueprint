@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:UserDefinedFunction xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:etl="http://www.neoflex.ru/meta/etl" name="BINARY2STRING" code="class Binary2StringUdfClass extends scala.Function1[Array[Byte], String] with Serializable {&#xA;  def apply(value: Array[Byte]): String = {&#xA;    import org.apache.hadoop.hbase.util.Bytes&#xA;    Bytes.toString(value)&#xA;  }&#xA;}&#xA;" className="Binary2StringUdfClass"/>

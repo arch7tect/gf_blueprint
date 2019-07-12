@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:Dataset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ScoringModel_Modeling_Data" shortName="Modeling_Data" description="Raw Historical Data" interpreter="R" expression="DemoData &lt;- read.df(spark, path = '/user/score/Modeling_Data.txt', source = &quot;csv&quot;, delimiter=&quot;\t&quot;, inferSchema = &quot;true&quot;, header=&quot;true&quot;)">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:12.828+0300" createUser="psimanihin" createDateTime="2019-06-17T11:30:11.479+0300"/>
+</sse:Dataset>

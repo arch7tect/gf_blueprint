@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="bp_xls_write" label="bp_xls_write" jsonView="{&quot;cells&quot;:[]}">
+  <targets xsi:type="etl:CSVTarget" name="xls_target" label="xls_target" csvFormat="EXCEL" path="/temp/blueprint/xls_test.xls" header="true" quote="&quot;" escape="\">
+    <inputPort name="CSV_1in">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="id" targetColumnName="id"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="name" targetColumnName="name"/>
+  </targets>
+  <sources xsi:type="etl:ExpressionSource" name="Expression_0" label="Expression_0" expression="Array(&#xA;    Map(&quot;id&quot; -> new java.math.BigDecimal(1), &quot;name&quot; -> &quot;1&quot;),&#xA;    Map(&quot;id&quot; -> new java.math.BigDecimal(2), &quot;name&quot; -> &quot;2&quot;) &#xA;)">
+    <outputPort name="Expression_0out">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <transitions name="01b91bb0-9941-4304-b4fc-e371304c9111" start="//@sources.0/@outputPort" finish="//@targets.0/@inputPort"/>
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T13:45:50.519+0300" createUser="admin" createDateTime="2019-05-21T18:31:55.816+0300"/>
+</etl:Transformation>

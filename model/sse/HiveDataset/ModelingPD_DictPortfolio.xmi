@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:HiveDataset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ModelingPD_DictPortfolio" shortName="DictPortfolio" db="default" table="DictPortfolio">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:15.509+0300" createUser="mtugushev" createDateTime="2019-05-13T18:36:58.428+0300"/>
+  <columns columnName="code">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="name">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="name_eng">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="_c3">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+</sse:HiveDataset>

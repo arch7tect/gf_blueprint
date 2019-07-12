@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:HiveDataset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ModelingPD_rcdataAccounts" shortName="rcdataAccounts" db="default" table="rcdataAccounts">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:17.092+0300" createUser="mtugushev" createDateTime="2019-05-13T18:36:57.880+0300"/>
+  <columns columnName="id_entity">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="id_account">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="LONG" nativeType="bigint"/>
+  </columns>
+  <columns columnName="id_accountmask">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_referencedate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="id_customer">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_portfolio">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="c_producttype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="c_productsubtype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="c_rating">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="c_originationscoring">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="c_behaviourscoring">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_outstandingprincipalamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_accruedinterestamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_pastdueamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_writeoffamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_creditlineamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_usedcreditlineamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_creditlinetype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="f_creditlineconditionality">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_currency">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_startdate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_maturitydate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_daysinarrears">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="n_interestrate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_contractualinterestspread">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_interestbasis">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_interestratetype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_indexrate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_penaltyinterestspread">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_effectiveinterestrate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_effectiveinterestspread">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="f_interestsuspended">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_amortizationtype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_freqpayprincipal">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_freqpayinterest">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="d_firstprincipalpaydate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_firstinterestpaydate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_prevprincipalpaydate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_previnterestpaydate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_intermprincipalgraceperiodstartdate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_intermprincipalgraceperiodenddate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_interminterestgraceperiodstartdate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="d_interminterestgraceperiodenddate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_principalamortizationrate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_principalamortizationamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_lastprincipalpayamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_realestatecollateralvalue">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_realestatelegalclaimvalue">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_realestatecollateraltype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_financialcollateralvalue">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_financialcollateraltype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_thirdpartyguaranteesvalue">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_thirdpartyguaranteestype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_othertangibleassetsvalue">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="c_othertangibleassetstype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="f_forbearance">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_forbearancetype">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="d_writeoffdate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_remissionprincipalamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="n_remissioninterestamount">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="d_remissiondate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="f_loansales">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="d_loansalesdate">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="n_loansalesprice">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="f_repossession">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="f_recoveryprocess">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_recoveryphase">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="f_default">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="c_defaultcriteria">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="INTEGER" nativeType="int"/>
+  </columns>
+  <columns columnName="auxfield1">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield2">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield3">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield4">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield5">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield6">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield7">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield8">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield9">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield10">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield11">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield12">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield13">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield14">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield15">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield16">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield17">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield18">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield19">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield20">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield21">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield22">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield23">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield24">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield25">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield26">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield27">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield28">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield29">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield30">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield31">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield32">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield33">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield34">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield35">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield36">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield37">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield38">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield39">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield40">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield41">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield42">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield43">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield44">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield45">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield46">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield47">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield48">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield49">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield50">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="auxfield51">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="auxfield52">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="auxfield53">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="DOUBLE" nativeType="double"/>
+  </columns>
+  <columns columnName="auxfield54">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield55">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield56">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield57">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield58">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield59">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield60">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield61">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield62">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield63">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield64">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield65">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield66">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield67">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield68">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield69">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield70">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield71">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield72">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield73">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield74">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield75">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield76">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield77">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield78">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield79">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield80">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield81">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield82">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield83">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield84">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield85">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield86">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield87">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield88">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield89">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield90">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield91">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield92">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield93">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield94">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield95">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield96">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield97">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield98">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield99">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield100">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield101">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield102">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield103">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield104">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield105">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield106">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield107">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield108">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield109">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield110">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield111">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield112">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield113">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield114">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield115">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield116">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield117">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield118">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield119">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield120">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield121">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield122">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield123">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield124">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield125">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield126">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield127">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield128">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield129">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield130">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield131">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield132">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield133">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield134">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield135">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield136">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield137">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield138">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield139">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+  <columns columnName="auxfield140">
+    <columnType xsi:type="sse:ScalarType" isNullable="true" dataType="STRING" nativeType="string"/>
+  </columns>
+</sse:HiveDataset>

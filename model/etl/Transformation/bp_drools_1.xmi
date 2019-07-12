@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="bp_drools_1" label="bp_drools_1" jsonView="{&quot;cells&quot;:[]}">
+  <targets xsi:type="etl:LocalTarget" name="Local_2" label="Local_2" localFileName="/tmp/blueprint/droolsResult.json" saveMode="OVERWRITE">
+    <inputPort name="Local_2in">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="id" targetColumnName="id"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="name" targetColumnName="name"/>
+  </targets>
+  <transformationSteps xsi:type="etl:Drools" name="Drools_1" label="Drools_1" inputFactTypeName="ru.neoflex.rules.InputType" resultFactTypeName="ru.neoflex.rules.InputType" resultQueryName="getRes" resultFactName="res">
+    <outputPort name="Drools_1out">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </outputPort>
+    <inputPort name="Drools_1in">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </inputPort>
+    <rulesFiles fileUrl="/tmp/blueprint/droolsTypes.drl"/>
+    <rulesFiles fileUrl="/tmp/blueprint/droolsRules.xls" fileType="XLS"/>
+  </transformationSteps>
+  <sources xsi:type="etl:ExpressionSource" name="Expression_0" label="Expression_0" expression="Array(&#xA;    Map(&quot;id&quot; -> new java.math.BigDecimal(1), &quot;name&quot; -> &quot;1&quot;),&#xA;    Map(&quot;id&quot; -> new java.math.BigDecimal(2), &quot;name&quot; -> &quot;2&quot;) &#xA;)">
+    <outputPort name="Expression_0out">
+      <fields name="id" dataTypeDomain="DECIMAL"/>
+      <fields name="name" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <transitions name="aa898668-3213-45cc-9574-688d4e333c4a" start="//@sources.0/@outputPort" finish="//@transformationSteps.0/@inputPort"/>
+  <transitions name="ef68fcb1-0105-4c6c-9a86-d33e6d485709" start="//@transformationSteps.0/@outputPort" finish="//@targets.0/@inputPort"/>
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T13:42:07.305+0300" createUser="admin" createDateTime="2019-05-21T18:31:54.101+0300"/>
+</etl:Transformation>

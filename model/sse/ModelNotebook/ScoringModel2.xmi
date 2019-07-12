@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:ModelNotebook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ScoringModel2" shortName="ScoringModel2">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:21.390+0300" createUser="psimanihin" createDateTime="2019-06-17T18:35:08.339+0300"/>
+  <paragraphs name="ScoringModel2_2019-06-18T13:01:33.671" title="Input Data" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="require(ranger)&#xA;# input - a data set for transformation&#xA;# output - the resulted data set&#xA;&#xA;# Define input --------&#xA;input&#xA;&#xA;inputMatrix &lt;- sparse.model.matrix(as.formula(modelFormula), data = input)[, -1] # drop Intercept"/>
+  </paragraphs>
+  <paragraphs name="ScoringModel2_2019-06-18T18:40:06.254" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody"/>
+  </paragraphs>
+  <paragraphs name="ScoringModel2_2019-06-18T13:01:58.353" title="Model2 - Predict" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="input.pred &lt;- predict(Model2, &#xA;                      data = inputMatrix, &#xA;                      type=&quot;response&quot;)$predictions[,2]"/>
+  </paragraphs>
+  <paragraphs name="ScoringModel2_2019-06-18T13:04:22.251" title="Output Data" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="output &lt;- input.pred"/>
+  </paragraphs>
+</sse:ModelNotebook>

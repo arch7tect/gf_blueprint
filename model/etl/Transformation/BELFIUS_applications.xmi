@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="BELFIUS_applications" label="BELFIUS_applications" jsonView="{&quot;cells&quot;:[]}">
+  <targets xsi:type="etl:CSVTarget" name="CSV_FUSION_RISK" label="CSV_FUSION_RISK" quote="&quot;" escape="\">
+    <inputPort name="CSV_11in">
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ApplicationClass" targetColumnName="ApplicationClass"/>
+  </targets>
+  <targets xsi:type="etl:CSVTarget" name="DS_XML_RESP" label="DS_XML_RESP" quote="&quot;" escape="\">
+    <inputPort name="CSV_14in">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ApplicationID" targetColumnName="ApplicationID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="AssociatedModelName" targetColumnName="AssociatedModelName"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ProductType" targetColumnName="ProductType"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ProposedProduct" targetColumnName="ProposedProduct"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="StrategyName" targetColumnName="StrategyName"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="StrategyVersion" targetColumnName="StrategyVersion"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_BirthDate" targetColumnName="Customer_BirthDate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_FirstName" targetColumnName="Customer_FirstName"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_Gender" targetColumnName="Customer_Gender"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_INN" targetColumnName="Customer_INN"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_LastName" targetColumnName="Customer_LastName"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_PlaceOfBirth" targetColumnName="Customer_PlaceOfBirth"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_Snils" targetColumnName="Customer_Snils"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_citizenshipId" targetColumnName="Customer_citizenshipId"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="Customer_clientId" targetColumnName="Customer_clientId"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_A1" targetColumnName="FinancialInformation_A1"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_A2" targetColumnName="FinancialInformation_A2"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_A3" targetColumnName="FinancialInformation_A3"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_A4" targetColumnName="FinancialInformation_A4"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_AverageTotalAssets" targetColumnName="FinancialInformation_AverageTotalAssets"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_Currency" targetColumnName="FinancialInformation_Currency"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_L1" targetColumnName="FinancialInformation_L1"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_L2" targetColumnName="FinancialInformation_L2"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_L3" targetColumnName="FinancialInformation_L3"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_L4" targetColumnName="FinancialInformation_L4"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_Profit" targetColumnName="FinancialInformation_Profit"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_SalesRevenue" targetColumnName="FinancialInformation_SalesRevenue"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="FinancialInformation_WorkingCapital" targetColumnName="FinancialInformation_WorkingCapital"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="GeneralInformation_NumMonthsActivity" targetColumnName="GeneralInformation_NumMonthsActivity"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="GeneralInformation_NumMonthsSinceReg" targetColumnName="GeneralInformation_NumMonthsSinceReg"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_AmortizationType" targetColumnName="RequestedProduct_AmortizationType"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_Amount" targetColumnName="RequestedProduct_Amount"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_Currency" targetColumnName="RequestedProduct_Currency"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_InterestRate" targetColumnName="RequestedProduct_InterestRate"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_Periodicity" targetColumnName="RequestedProduct_Periodicity"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RequestedProduct_Term" targetColumnName="RequestedProduct_Term"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ApplicationClass" targetColumnName="ApplicationClass"/>
+  </targets>
+  <transformationSteps xsi:type="etl:Drools" name="Drools_Apply_Strategy" label="Drools_Apply_Strategy" inputFactTypeName="Application" resultFactTypeName="EstimatedApplication" resultQueryName="getEstimation" resultFactName="EstimatedApplicationList">
+    <outputPort name="Drools_1out">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </outputPort>
+    <inputPort name="Drools_1in">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Aggregation" name="DS_AGGR_RESP" label="DS_AGGR_RESP">
+    <outputPort name="Aggregation_5out">
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </outputPort>
+    <inputPort name="Aggregation_5in">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </inputPort>
+    <groupByFieldName>ApplicationClass</groupByFieldName>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Join" name="Join_Catalog" label="Join_Catalog">
+    <outputPort name="Join_7out">
+      <fields xsi:type="etl:ProjectionField" name="ApplicationClass" dataTypeDomain="INTEGER" sourceFields="//@transformationSteps.2/@inputPort/@fields.0"/>
+    </outputPort>
+    <inputPort name="Join_7in">
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </inputPort>
+    <joineePort name="Join_7join"/>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:ExplodeStep" name="XML_TO_CSM" label="XML_TO_CSM">
+    <outputPort name="Explode_fields_13out">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </outputPort>
+    <inputPort name="Explode_fields_13in">
+      <fields name="ApplicationID" dataTypeDomain="STRING"/>
+      <fields name="AssociatedModelName" dataTypeDomain="STRING"/>
+      <fields name="ProductType" dataTypeDomain="STRING"/>
+      <fields name="ProposedProduct" dataTypeDomain="STRING"/>
+      <fields name="StrategyName" dataTypeDomain="STRING"/>
+      <fields name="StrategyVersion" dataTypeDomain="LONG"/>
+      <fields name="Customer_BirthDate" dataTypeDomain="STRING"/>
+      <fields name="Customer_FirstName" dataTypeDomain="STRING"/>
+      <fields name="Customer_Gender" dataTypeDomain="STRING"/>
+      <fields name="Customer_INN" dataTypeDomain="LONG"/>
+      <fields name="Customer_LastName" dataTypeDomain="STRING"/>
+      <fields name="Customer_PlaceOfBirth" dataTypeDomain="STRING"/>
+      <fields name="Customer_Snils" dataTypeDomain="STRING"/>
+      <fields name="Customer_citizenshipId" dataTypeDomain="STRING"/>
+      <fields name="Customer_clientId" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_A4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Currency" dataTypeDomain="STRING"/>
+      <fields name="FinancialInformation_L1" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L2" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L3" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_L4" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_Profit" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG"/>
+      <fields name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG"/>
+      <fields name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_AmortizationType" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_Amount" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Currency" dataTypeDomain="STRING"/>
+      <fields name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE"/>
+      <fields name="RequestedProduct_Periodicity" dataTypeDomain="LONG"/>
+      <fields name="RequestedProduct_Term" dataTypeDomain="LONG"/>
+      <fields name="ApplicationClass" dataTypeDomain="INTEGER"/>
+    </inputPort>
+  </transformationSteps>
+  <sources xsi:type="etl:XMLSource" name="DS_XML_REQ" label="DS_XML_REQ" path="/user/applications/*" rowTag="application">
+    <outputPort name="XML_0out">
+      <fields xsi:type="etl:XMLSourceField" name="ApplicationID" dataTypeDomain="STRING" xmlPath="ApplicationID"/>
+      <fields xsi:type="etl:XMLSourceField" name="AssociatedModelName" dataTypeDomain="STRING" xmlPath="AssociatedModelName"/>
+      <fields xsi:type="etl:XMLSourceField" name="ProductType" dataTypeDomain="STRING" xmlPath="ProductType"/>
+      <fields xsi:type="etl:XMLSourceField" name="ProposedProduct" dataTypeDomain="STRING" xmlPath="ProposedProduct"/>
+      <fields xsi:type="etl:XMLSourceField" name="StrategyName" dataTypeDomain="STRING" xmlPath="StrategyName"/>
+      <fields xsi:type="etl:XMLSourceField" name="StrategyVersion" dataTypeDomain="LONG" xmlPath="StrategyVersion"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_BirthDate" dataTypeDomain="STRING" xmlPath="Customer.BirthDate"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_FirstName" dataTypeDomain="STRING" xmlPath="Customer.FirstName"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_Gender" dataTypeDomain="STRING" xmlPath="Customer.Gender"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_INN" dataTypeDomain="LONG" xmlPath="Customer.INN"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_LastName" dataTypeDomain="STRING" xmlPath="Customer.LastName"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_PlaceOfBirth" dataTypeDomain="STRING" xmlPath="Customer.PlaceOfBirth"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_Snils" dataTypeDomain="STRING" xmlPath="Customer.Snils"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_citizenshipId" dataTypeDomain="STRING" xmlPath="Customer.citizenshipId"/>
+      <fields xsi:type="etl:XMLSourceField" name="Customer_clientId" dataTypeDomain="LONG" xmlPath="Customer.clientId"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_A1" dataTypeDomain="LONG" xmlPath="FinancialInformation.A1"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_A2" dataTypeDomain="LONG" xmlPath="FinancialInformation.A2"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_A3" dataTypeDomain="LONG" xmlPath="FinancialInformation.A3"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_A4" dataTypeDomain="LONG" xmlPath="FinancialInformation.A4"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_AverageTotalAssets" dataTypeDomain="LONG" xmlPath="FinancialInformation.AverageTotalAssets"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_Currency" dataTypeDomain="STRING" xmlPath="FinancialInformation.Currency"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_L1" dataTypeDomain="LONG" xmlPath="FinancialInformation.L1"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_L2" dataTypeDomain="LONG" xmlPath="FinancialInformation.L2"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_L3" dataTypeDomain="LONG" xmlPath="FinancialInformation.L3"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_L4" dataTypeDomain="LONG" xmlPath="FinancialInformation.L4"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_Profit" dataTypeDomain="LONG" xmlPath="FinancialInformation.Profit"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_SalesRevenue" dataTypeDomain="LONG" xmlPath="FinancialInformation.SalesRevenue"/>
+      <fields xsi:type="etl:XMLSourceField" name="FinancialInformation_WorkingCapital" dataTypeDomain="LONG" xmlPath="FinancialInformation.WorkingCapital"/>
+      <fields xsi:type="etl:XMLSourceField" name="GeneralInformation_NumMonthsActivity" dataTypeDomain="LONG" xmlPath="GeneralInformation.NumMonthsActivity"/>
+      <fields xsi:type="etl:XMLSourceField" name="GeneralInformation_NumMonthsSinceReg" dataTypeDomain="LONG" xmlPath="GeneralInformation.NumMonthsSinceReg"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_AmortizationType" dataTypeDomain="STRING" xmlPath="RequestedProduct.AmortizationType"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_Amount" dataTypeDomain="LONG" xmlPath="RequestedProduct.Amount"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_Currency" dataTypeDomain="STRING" xmlPath="RequestedProduct.Currency"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_InterestRate" dataTypeDomain="DOUBLE" xmlPath="RequestedProduct.InterestRate"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_Periodicity" dataTypeDomain="LONG" xmlPath="RequestedProduct.Periodicity"/>
+      <fields xsi:type="etl:XMLSourceField" name="RequestedProduct_Term" dataTypeDomain="LONG" xmlPath="RequestedProduct.Term"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:LocalSource" name="PRODUCT_CATALOG" label="PRODUCT_CATALOG">
+    <outputPort name="Local_8out"/>
+  </sources>
+  <transitions name="8954189a-c5d3-461a-8820-cbaac5195f3f" start="//@sources.0/@outputPort" finish="//@transformationSteps.0/@inputPort"/>
+  <transitions name="0a1d8bae-6c3f-44cc-a22f-25b1c70c78ec" start="//@transformationSteps.0/@outputPort" finish="//@transformationSteps.1/@inputPort"/>
+  <transitions name="d1bc27e0-80f3-48ed-a2bf-3eae52d74192" start="//@transformationSteps.1/@outputPort" finish="//@transformationSteps.2/@inputPort"/>
+  <transitions name="acb30ee8-237e-488e-a927-abc13adecfa6" start="//@sources.1/@outputPort" finish="//@transformationSteps.2/@joineePort"/>
+  <transitions name="1f1f8e7e-8681-4ded-b83f-4f04c2669375" start="//@transformationSteps.2/@outputPort" finish="//@targets.0/@inputPort"/>
+  <transitions name="c9b847c2-9a72-402d-9336-cee74910a9c8" start="//@transformationSteps.0/@outputPort" finish="//@transformationSteps.3/@inputPort"/>
+  <transitions name="9009acbf-a86a-4f9d-8226-5efd88d73682" start="//@transformationSteps.3/@outputPort" finish="//@targets.1/@inputPort"/>
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T13:41:19.019+0300" createUser="psimanihin" createDateTime="2019-06-17T15:14:40.029+0300"/>
+</etl:Transformation>

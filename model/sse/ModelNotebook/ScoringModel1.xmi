@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:ModelNotebook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ScoringModel1" shortName="ScoringModel1">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:21.089+0300" createUser="psimanihin" createDateTime="2019-06-17T18:31:09.916+0300"/>
+  <paragraphs name="ScoringModel1_2019-06-18T12:58:05.565" title="Define Input Data" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="# input - a data set for transformation&#xA;# output - the resulted data set&#xA;&#xA;# Define input --------&#xA;input"/>
+  </paragraphs>
+  <paragraphs name="ScoringModel1_2019-06-18T12:58:19.805" title="Model 1 - Predict" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="# predict:&#xA;input.pred &lt;- predict(Model1, newdata = input, type=&quot;response&quot;)"/>
+  </paragraphs>
+  <paragraphs name="ScoringModel1_2019-06-18T12:59:50.613" title="Output Data" textVisible="true" resultVisible="true" titleVisible="true">
+    <body xsi:type="sse:CodeBody" interpreter="R" text="output &lt;- input.pred"/>
+  </paragraphs>
+</sse:ModelNotebook>

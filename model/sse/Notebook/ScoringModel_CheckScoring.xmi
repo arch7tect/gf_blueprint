@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sse:Notebook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sse="http://www.neoflex.ru/meta/sse" name="ScoringModel_CheckScoring" shortName="CheckScoring" description="Validation - Data Scoring Model">
+  <auditInfo changeUser="orlov" changeDateTime="2019-07-12T11:14:24.736+0300" createUser="psimanihin" createDateTime="2019-06-17T18:35:57.226+0300"/>
+</sse:Notebook>

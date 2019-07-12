@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:UserDefinedFunction xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:etl="http://www.neoflex.ru/meta/etl" name="BINARY2BOOLEAN" code="class Binary2BooleanUdfClass extends scala.Function1[Array[Byte], Boolean] with Serializable {&#xA;  def apply(value: Array[Byte]): Boolean = {&#xA;    import org.apache.hadoop.hbase.util.Bytes&#xA;    Bytes.toBoolean(value)&#xA;  }&#xA;}&#xA;" className="Binary2BooleanUdfClass"/>

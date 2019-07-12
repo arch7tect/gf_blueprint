@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rt:LivyServer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rt="http://www.neoflex.ru/meta/rt" name="ih921081.vds.myihor.ru" http="http://ih921081.vds.myihor.ru:8999" home="/user" user="hdfs" webhdfs="http://ih921081.vds.myihor.ru:50070/webhdfs/v1" numExecutors="1" driverMemory="4g" executorMemory="4g" isDefault="true"/>
